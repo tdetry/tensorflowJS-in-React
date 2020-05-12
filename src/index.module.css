@@ -1,0 +1,55 @@
+.ai {
+    margin: auto;
+    width: 400px;
+    height: 170px;
+    background-color: brown;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.ai form {
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+}
+
+.ai input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    height: 50px;
+    overflow: auto;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.ai button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.bar {
+    margin-top: 10px;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+  
+.progress {
+    width: 5%;
+    background: green;
+    height: 15px;
+}
+
+@media (max-width: 600px) {
+    .ai {
+        margin: auto;
+        width: 300px;
+    }
+}
