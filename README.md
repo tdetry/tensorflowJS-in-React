@@ -2,6 +2,19 @@
 
 Small React Application to investigate the use of TensorflowJS. It runs sentiment analysis in the browser.
 
+## Installation 
+
+```bash
+git clone https://github.com/tdetry/tensorflowJS-in-React
+cd tensorflowJS-in-React/
+npm i
+npm run build
+cd build
+surge
+```
+
+Then browse the url.
+
 # React doc
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
